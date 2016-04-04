@@ -1,0 +1,6 @@
+60	// FPS			(60fps)
+0	// FULL_SCREEN		(0=Windowed,1=Fullscreen)
+60	// CLOCK_LENGTH		(60s game length)
+0	// GAME_MODE		(0=Timed,1=Untimed)
+0	// AUDIO_SET		(0=On,1=Off)
+250	// ANIMATE DELAY	(value = ms)
