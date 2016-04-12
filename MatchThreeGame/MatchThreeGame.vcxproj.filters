@@ -7,6 +7,9 @@
     <Filter Include="Header Files">
       <UniqueIdentifier>{2a837e81-36bb-4ff0-abf0-32d162ee6e43}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{cf38f574-fdca-447c-8e8e-b0e8a7878c3c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp">
@@ -17,5 +20,13 @@
     <ClInclude Include="src\Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MatchThreeGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
