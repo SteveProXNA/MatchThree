@@ -31,4 +31,4 @@ Default configuration values (if no file present)<br />
 ###### CONTACT
 - Blog:		http://steveproxna.blogspot.com
 - Email:	steven_boland@hotmail.com
-- Twitter:	@SteveProXNA
+- Twitter:	<a href="http://twitter.com/SteveProXNA">@SteveProXNA</a>
