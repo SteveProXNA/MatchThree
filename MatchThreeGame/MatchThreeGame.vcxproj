@@ -62,8 +62,8 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)MatchThreeLibrary\bin\$(Configuration);$(SolutionDir)deps\lib\$(Configuration)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MatchThreeLibrary.lib;SDL.lib;SDLmain.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)MatchThreeLibrary\bin\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>MatchThreeLibrary.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>msvcrt.lib</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>

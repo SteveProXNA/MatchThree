@@ -12,6 +12,6 @@ protected:
 
 TEST_F(ScreenManagerTests, Update)
 {
-    screenManager.Init();
-    screenManager.Quit();
+	screenManager.Init();
+	screenManager.Quit();
 }

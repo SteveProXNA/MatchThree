@@ -3,4 +3,4 @@
 60	// CLOCK_LENGTH		(60s game length)
 1	// GAME_MODE		(0=Timed,1=Untimed)
 0	// AUDIO_SET		(0=On,1=Off)
-400	// ANIMATE DELAY	(value = ms)
+400	// ANIMATE_DELAY	(value = ms)

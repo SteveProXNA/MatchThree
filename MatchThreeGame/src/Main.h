@@ -2,7 +2,6 @@
 #define _MAIN_H_
 
 #include "Engine.h"
-#include <SDL/SDL.h>
 
 using namespace MatchThree;
 

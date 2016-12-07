@@ -7,15 +7,15 @@ using namespace MatchThree;
 class ClockManagerTests : public ::testing::Test
 {
 protected:
-    void SetUp()
-    {
-        clockManager.Init();
-    }
+	void SetUp()
+	{
+		clockManager.Init();
+	}
 
-    ClockManager clockManager;
+	ClockManager clockManager;
 };
 
 TEST_F(ClockManagerTests, Update)
 {
-    clockManager.Update(16.67f);
+	clockManager.Update(16.67f);
 }

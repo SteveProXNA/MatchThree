@@ -7,15 +7,15 @@ using namespace MatchThree;
 class ScoreManagerTests : public ::testing::Test
 {
 protected:
-    void SetUp()
-    {
-        scoreManager.Init();
-    }
+	void SetUp()
+	{
+		scoreManager.Init();
+	}
 
-    ScoreManager scoreManager;
+	ScoreManager scoreManager;
 };
 
 TEST_F(ScoreManagerTests, Update)
 {
-    scoreManager.Update();
+	scoreManager.Update();
 }

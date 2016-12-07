@@ -7,15 +7,15 @@ using namespace MatchThree;
 class AudioManagerTests : public ::testing::Test
 {
 protected:
-    void SetUp()
-    {
-        audioManager.Init(false);
-    }
+	void SetUp()
+	{
+		audioManager.Init(false);
+	}
 
-    AudioManager audioManager;
+	AudioManager audioManager;
 };
 
 TEST_F(AudioManagerTests, Buzz)
 {
-    audioManager.PlayAudio(BUZZ_AUDIO);
+	audioManager.PlayAudio(BUZZ_AUDIO);
 }

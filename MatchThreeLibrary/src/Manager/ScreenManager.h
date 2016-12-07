@@ -1,6 +1,5 @@
 #ifndef _SCREEN_MANAGER_H_
 #define _SCREEN_MANAGER_H_
-//#pragma once
 
 #include "../Constants.h"
 #include "../Screens/BaseScreen.h"
@@ -18,40 +17,40 @@
 
 namespace MatchThree
 {
-    class ScreenManager
-    {
-    public:
-        ScreenManager()     {}
-        ~ScreenManager()    {}
+	class ScreenManager
+	{
+	public:
+		ScreenManager()     {}
+		~ScreenManager()    {}
 
-        void Init();
-        void Quit();
+		void Init();
+		void Quit();
 
-        void Update(float delta);
-        void Render();
+		void Update(float delta);
+		void Render();
 
-    private:
-        void InsertScreens();
-        void DeleteScreens();
-        void InsertStates();
-        void DeleteStates();
+	private:
+		void InsertScreens();
+		void DeleteScreens();
+		void InsertStates();
+		void DeleteStates();
 
-        BaseScreen*     screens[MAX_SCREENS];
-        SplashScreen*   splashScreen;
-        TitleScreen*    titleScreen;
-        PlayScreen*     playScreen;
-        OverScreen*     overScreen;
+		BaseScreen*     screens[MAX_SCREENS];
+		SplashScreen*   splashScreen;
+		TitleScreen*    titleScreen;
+		PlayScreen*     playScreen;
+		OverScreen*     overScreen;
 
-        ScreenType currScreen;
-        ScreenType nextScreen;
+		ScreenType currScreen;
+		ScreenType nextScreen;
 
-        OneSelectState*     oneSelectState;
-        TwoSelectState*     twoSelectState;
-        SwapForwardState*   swapForwardState;
-        SwapBackState*      swapBackState;
-        ReplenishState*     replenishState;
-        DropGemState*       dropGemState;
-    };
+		OneSelectState*     oneSelectState;
+		TwoSelectState*     twoSelectState;
+		SwapForwardState*   swapForwardState;
+		SwapBackState*      swapBackState;
+		ReplenishState*     replenishState;
+		DropGemState*       dropGemState;
+	};
 }
 
 #endif//_SCREEN_MANAGER_H_

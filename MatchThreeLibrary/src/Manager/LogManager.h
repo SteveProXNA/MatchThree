@@ -1,26 +1,25 @@
 #ifndef _LOG_MANAGER_H_
 #define _LOG_MANAGER_H_
-//#pragma once
 
 #include <fstream>
 using namespace std;
 
 namespace MatchThree
 {
-    class LogManager
-    {
-    public:
-        LogManager()    {}
-        ~LogManager()   {}
+	class LogManager
+	{
+	public:
+		LogManager()    {}
+		~LogManager()   {}
 
-        void Init();
-        void Quit();
+		void Init();
+		void Quit();
 
-        void Write(const char* format, ...);
+		void Write(const char* format, ...);
 
-    private:
-        ofstream log;
-    };
+	private:
+		ofstream log;
+	};
 }
 
 #endif//_LOG_MANAGER_H_

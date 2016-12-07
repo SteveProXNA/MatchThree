@@ -7,11 +7,11 @@ using namespace MatchThree;
 class ContentManagerTests : public ::testing::Test
 {
 protected:
-    ContentManager contentManager;
+	ContentManager contentManager;
 };
 
 TEST_F(ContentManagerTests, Load)
 {
-    contentManager.Init();
-    contentManager.Quit();
+	contentManager.Init();
+	contentManager.Quit();
 }

@@ -7,15 +7,15 @@ using namespace MatchThree;
 class LogManagerTests : public ::testing::Test
 {
 public:
-    LogManagerTests()   {}
-    ~LogManagerTests()  {}
+	LogManagerTests()   {}
+	~LogManagerTests()  {}
 protected:
-    LogManager logManager;
+	LogManager logManager;
 };
 
 TEST_F(LogManagerTests, Write)
 {
-    logManager.Init();
-    logManager.Write("logging test\n");
-    logManager.Quit();
+	logManager.Init();
+	logManager.Write("logging test\n");
+	logManager.Quit();
 }
